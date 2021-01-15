@@ -1,0 +1,26 @@
+.ui.list .list > .item .header,
+.ui.list > .item .header,
+.btnRight {
+	display: inline;
+}
+.delete-enter {
+  opacity: 0.01;
+  width: 0px;
+}
+
+.delete-enter.delete-enter-active {
+  opacity: 1;
+  width: 100px;
+  transition: 700ms;
+}
+
+.delete-leave {
+  opacity: 1;
+  width: 100px;
+}
+
+.delete-leave.delete-leave-active {
+  opacity: 0.01;
+  width: 0px;
+  transition: 700ms;
+}
